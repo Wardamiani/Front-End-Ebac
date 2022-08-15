@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+  }
+
+table {		
+	background: #ffffff;	
+	border-collapse: collapse;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;	
+    font-size: 90%;
+	color: #393939;
+	margin-top: 2px;
+	float: center;	
+    margin-top: 37px;			
+}
+
+#titulo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 10%;
+    color: white;
+    font-size: larger;
+}
+
+table tr {
+	border: 1px rgb(189, 189, 189) solid;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: rgba(255, 172, 245, 0.262);
+}
+
+table tbody tr:hover {
+	background-color: rgba(128, 128, 128, 0.242);
+}
+
+table th,
+table td {
+	padding: 1rem;	
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 0.5px solid rgba(176, 176, 176, 0.331);
+	border-right: 0.2px rgb(237, 237, 237) solid;	
+	}
+
+table tr td:first-child {
+	font-weight: bold;
+}
+
+table th {
+	background-color: rgba(165, 100, 255, 0.733);
+	border-right: 0.2px rgb(218, 218, 218) solid;	
+}
+
+.table-container {
+	padding: 1;
+}
+
+.table-container tfoot {
+	background: rgba(137, 53, 142, 0.42);
+	font-weight: bold;
+	
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    margin: 2rem;
+    margin-bottom: 2rem;
+}
+
+#footer {
+	text-align: center;
+}
+
+/* tablet */
+@media only screen and (max-width: 800px) {
+
+	table {		
+		background: #ffffff;	
+		border-collapse: collapse;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;	
+		font-size: 90%;
+		color: #393939;
+		margin-top: 2px;
+		float: center;	
+		margin-top: 37px;	
+		width: 1rem;		
+	}
+
+	table tr {
+		border: 1px rgb(189, 189, 189) solid;
+	}
+    
+}
+
+/* smartphone */
+@media only screen and (max-width: 430px) {
+
+	table {		
+		background: #ffffff;	
+		border-collapse: collapse;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;	
+		font-size: 90%;
+		color: #393939;
+		margin-top: 2px;
+		float: center;	
+		margin-top: 37px;	
+		width: 1rem;		
+	}
+
+	table tr {
+		border: 1px rgb(189, 189, 189) solid;
+	}
+}
